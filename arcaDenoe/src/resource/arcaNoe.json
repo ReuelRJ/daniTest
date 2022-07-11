@@ -1,0 +1,1196 @@
+[
+	{
+		"type": "Amphibians",
+		"animal": "Frog",
+		"sex": "male",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Frog",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Frog",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Salamander",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Salamander",
+		"sex": "female",
+		"age": "7",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Salamander",
+		"sex": "female",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Amphibians",
+		"animal": "Salamander",
+		"sex": "female",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "male",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "female",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Pigeon",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "male",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "male",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "female",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Duck",
+		"sex": "female",
+		"age": "9",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			},
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Birds",
+		"animal": "Hawk",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Turtle",
+		"sex": "male",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Turtle",
+		"sex": "female",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Turtle",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Turtle",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Turtle",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Snake",
+		"sex": "male",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Snake",
+		"sex": "male",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Snake",
+		"sex": "female",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Alligator",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Reptiles",
+		"animal": "Alligator",
+		"female": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			},
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			},
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Fish",
+		"animal": "Shark",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Fish",
+		"animal": "Tuna",
+		"sex": "female",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Dog",
+		"sex": "female",
+		"age": "9",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Dog",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Dog",
+		"sex": "female",
+		"age": "7",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Dog",
+		"sex": "male",
+		"age": "7",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Dog",
+		"sex": "male",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Wolf",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Wolf",
+		"sex": "male",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Wolf",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Grey Wolf",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Cat",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Cat",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Cat",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Cat",
+		"sex": "female",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Lion",
+		"sex": "female",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Lion",
+		"sex": "female",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Lion",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Lion",
+		"sex": "female",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Lion",
+		"sex": "male",
+		"age": "7",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Tiger",
+		"sex": "male",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Tiger",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Tiger",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Elephant",
+		"sex": "male",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Elephant",
+		"sex": "male",
+		"age": "1",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Elephant",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Elephant",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "White Elephant",
+		"sex": "female",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "White Elephant",
+		"sex": "female",
+		"age": "5",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "White Elephant",
+		"sex": "female",
+		"age": "6",
+		"movements": [
+			{
+				"movement": "Walk"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Whale",
+		"sex": "male",
+		"age": "4",
+		"movements": [
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Whale",
+		"sex": "male",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Whale",
+		"sex": "male",
+		"age": "2",
+		"movements": [
+			{
+				"movement": "Swin"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Marine"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Bat",
+		"sex": "male",
+		"age": "8",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Bat",
+		"sex": "female",
+		"age": "3",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Bat",
+		"sex": "male",
+		"age": "7",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	},
+	{
+		"type": "Mammals",
+		"animal": "Bat",
+		"sex": "male",
+		"age": "6",
+		"movements": [
+			{
+				"movement": "Fly"
+			}
+		],
+		"habitats": [
+			{
+				"habitats": "Terrestrial"
+			}
+		]
+	}
+]
