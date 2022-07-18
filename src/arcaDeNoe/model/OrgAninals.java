@@ -1,11 +1,13 @@
 package arcaDeNoe.model;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.json.simple.JSONArray;
+
 public class OrgAninals {
-
-
 
     public List<Animal> filterEspecie (List<Animal> animals){
         List<Animal> arkAnimals = new ArrayList<>();
@@ -30,10 +32,24 @@ public class OrgAninals {
         }
         return cuples;
     }
+    
+    public void createJsonListFile (List<Animal> listCuple, String nameFile)throws Exception {
+    	JSONArray list = new JSONArray();
+        list.add(listCuple);
+    	try (FileWriter file = new FileWriter(".\\resources\\"+nameFile+".json")){
+        	file.write(list.toJSONString());
+        	file.flush();
+        	System.out.println("Arquivo Criado com sucesso!");
+        }catch(IOException e){
+        	e.printStackTrace();
+        }
+    }
 
     //List<Animal> filterCuple
     
-    
+    public List<Animal> filterAnimalFemale (List<Animal> animalsArk){
+        return animalsArk.stream().filter(female -> "female".equals(female.getSex())).toList();
+    }
 
 
 

@@ -1,7 +1,11 @@
 package arcaDeNoe.model;
 
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
+
+import org.json.simple.JSONArray;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -9,6 +13,7 @@ import com.google.gson.stream.JsonReader;
 
 public class Ark {
 
+	@SuppressWarnings("unchecked")
     public static void main(String[] args) throws Exception {
 
         OrgAninals ark = new OrgAninals();
@@ -18,7 +23,20 @@ public class Ark {
         List<Animal> animals = gson.fromJson(jsonReader, new TypeToken<List<Animal>>() {}.getType());
         List<Animal> arkAnimals = ark.filterEspecie(animals);
         List<Animal> arkCupleAnimals = ark.createCuple(arkAnimals);
+        List<Animal> animalFemale = ark.filterAnimalFemale(arkCupleAnimals);
 
+        ark.createJsonListFile(animalFemale, "teste");
+        
+        
+        
+        
+        //animalFemale.forEach(StdOut::println);
+
+      
+        
+        
+        
+        //System.out.println("JSON: "+femeas);
         //ark.filterCuple(arkCupleAnimals);
 
         //arkCupleAnimals.forEach(StdOut::println);
