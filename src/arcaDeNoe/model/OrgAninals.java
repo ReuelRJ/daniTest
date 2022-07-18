@@ -56,11 +56,7 @@ public class OrgAninals {
         }
     }
 
-    public void parseJSON (List<Animal> animals, String nameArquiveJson) {
-    	Gson g = new Gson();
-    	String s = g.toJson(animals);
-    	System.out.println("JSON: "+s);
-    }
+   
     
     //List<Animal> filterCuple
     
