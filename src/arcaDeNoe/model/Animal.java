@@ -78,6 +78,7 @@ public class Animal {
     public Animal() {
         super();
     }
+
     public Animal(String type, String animal, String sex, String age, List<Movement> movements,
                   List<Habitat> habitats) {
         super();

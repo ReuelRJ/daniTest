@@ -5,12 +5,12 @@ import java.util.Objects;
 public class Habitat {
     private String habitats;
 
-    private void getHabitats() {
-        this.habitats = habitats;
+    public String getHabitat() {
+        return this.habitats;
     }
 
-    private String setHabitats(String habitats) {
-        return this.habitats;
+    private void setHabitat(String habitats) {
+        this.habitats = habitats;
     }
 
     @Override
