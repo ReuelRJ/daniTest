@@ -12,6 +12,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.google.gson.Gson;
+
 public class OrgAninals {
 
     public List<Animal> filterEspecie (List<Animal> animals){
@@ -38,39 +40,28 @@ public class OrgAninals {
         return cuples;
     }
     
-    public void createObjListFile (List<Animal> listCuple, String nameFile)throws Exception {
-    	JSONArray list = new JSONArray();
-        list.add(listCuple);
-    	try (FileWriter file = new FileWriter(".\\resources\\"+nameFile+".json")){
-        	file.write(list.toJSONString());
-        	file.flush();
-        	System.out.println("Arquivo Object Criado com sucesso!");
-        }catch(IOException e){
-        	e.printStackTrace();
-        }
-    }
-    
-    public void createJsonFile(String arquiveObj) throws FileNotFoundException, IOException, ParseException {
-    	JSONParser jsonParser = new JSONParser();
-    	try (FileReader reader = new FileReader(".\\resources\\"+arquiveObj+".json")){
-    		Object obj = jsonParser.parse(reader);
-    		JSONArray animalList = (JSONArray) obj;
-    		animalList.forEach(anim -> parseListJson((JSONObject) anim));
-    		System.out.println("Arquivo JSON Criado com sucesso!");
-    	}catch (FileNotFoundException e) {
-            e.printStackTrace();
+    public void createObjectFileString (List<Animal> animals, String nameArquiveJson ) {
+    	Gson g = new Gson();
+    	JSONArray listAnimal = new JSONArray();
+    	listAnimal.add(animals);
+    	String s = g.toJson(animals);
+    	try (FileWriter file = new FileWriter(".\\resources\\"+nameArquiveJson+".json")) {
+
+            file.write(s);
+            file.flush();
+            System.out.println("Arquivo toString criado com sucesso!");
+
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
         }
-    	
-    }
-    
-    public static void parseListJson (JSONObject list) {
-    	JSONObject listObjects = (JSONObject) list.get("Animal");
     }
 
+    public void parseJSON (List<Animal> animals, String nameArquiveJson) {
+    	Gson g = new Gson();
+    	String s = g.toJson(animals);
+    	System.out.println("JSON: "+s);
+    }
+    
     //List<Animal> filterCuple
     
     public List<Animal> filterAnimalFemale (List<Animal> animalsArk){

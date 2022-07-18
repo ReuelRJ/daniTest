@@ -19,15 +19,13 @@ public class Ark {
         OrgAninals ark = new OrgAninals();
         Gson gson = new Gson();
         JsonReader jsonReader = new JsonReader(new FileReader("resources/animalsList.json"));
-
+        
         List<Animal> animals = gson.fromJson(jsonReader, new TypeToken<List<Animal>>() {}.getType());
         List<Animal> arkAnimals = ark.filterEspecie(animals);
         List<Animal> arkCupleAnimals = ark.createCuple(arkAnimals);
         List<Animal> animalFemale = ark.filterAnimalFemale(arkCupleAnimals);
-
-        ark.createObjListFile(animalFemale, "teste");
-        ark.createJsonFile("teste");
-        
+        ark.createObjectFileString(animalFemale, "teste");
+        //ark.parseJSON(animalFemale, "teste");
         
         
         
