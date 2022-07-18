@@ -32,19 +32,8 @@ public class OrgAninals {
     }
 
     //List<Animal> filterCuple
-
-    public void filterCuple(List<Animal> cuples) {
-        List<Animal> childCuples = new ArrayList<>();
-        for (int i = 0; i < cuples.size()-1; i++) {
-            if (areSameAnimal(cuples.get(i), cuples.get(i+1))) &&
-                for (int x = 0; x < cuples.size()-1; x++) {
-                    if (cuples.get(i).getAge() + cuples.get(i+1).getAge() < cuples.get(x).getAge() + cuples.get(x+1).getAge()) {
-
-                    }
-                }
-        }
-    }
-
+    
+    
 
 
 

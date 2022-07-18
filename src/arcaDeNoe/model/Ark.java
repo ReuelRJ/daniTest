@@ -1,19 +1,11 @@
 package arcaDeNoe.model;
 
+import java.io.FileReader;
+import java.util.List;
+
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
-
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.function.UnaryOperator;
 
 public class Ark {
 
@@ -27,7 +19,7 @@ public class Ark {
         List<Animal> arkAnimals = ark.filterEspecie(animals);
         List<Animal> arkCupleAnimals = ark.createCuple(arkAnimals);
 
-        ark.filterCuple(arkCupleAnimals);
+        //ark.filterCuple(arkCupleAnimals);
 
         //arkCupleAnimals.forEach(StdOut::println);
 
