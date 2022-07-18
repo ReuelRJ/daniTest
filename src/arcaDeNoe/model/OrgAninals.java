@@ -40,7 +40,7 @@ public class OrgAninals {
         return cuples;
     }
     
-    public void createObjectFileString (List<Animal> animals, String nameArquiveJson ) {
+    public void createJSONFile (List<Animal> animals, String nameArquiveJson ) {
     	Gson g = new Gson();
     	JSONArray listAnimal = new JSONArray();
     	listAnimal.add(animals);
