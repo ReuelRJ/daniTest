@@ -582,7 +582,7 @@
   {
     "type": "Reptiles",
     "animal": "Alligator",
-    "female": "male",
+    "sex": "male",
     "age": "2",
     "movements": [
       {

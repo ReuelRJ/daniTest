@@ -6,7 +6,7 @@ public class Movement {
     private String movement;
 
     public String getMovement() {
-        return movement;
+        return this.movement;
     }
 
     public void setMovement(String movement) {

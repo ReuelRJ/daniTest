@@ -7,7 +7,7 @@ public class Animal {
     private String type;
     private String animal;
     private String sex;
-    private String age;
+    private int age;
     private List<Movement> movements;
     private List<Habitat> habitats;
 
@@ -29,10 +29,10 @@ public class Animal {
     public void setSex(String sex) {
         this.sex = sex;
     }
-    public String getAge() {
+    public int getAge() {
         return age;
     }
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
     public List<Movement> getMovements() {
@@ -78,7 +78,8 @@ public class Animal {
     public Animal() {
         super();
     }
-    public Animal(String type, String animal, String sex, String age, List<Movement> movements,
+
+    public Animal(String type, String animal, String sex, int age, List<Movement> movements,
                   List<Habitat> habitats) {
         super();
         this.type = type;
