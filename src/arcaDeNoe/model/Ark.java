@@ -25,7 +25,8 @@ public class Ark {
         List<Animal> arkCupleAnimals = ark.createCuple(arkAnimals);
         List<Animal> animalFemale = ark.filterAnimalFemale(arkCupleAnimals);
 
-        ark.createJsonListFile(animalFemale, "teste");
+        ark.createObjListFile(animalFemale, "teste");
+        ark.createJsonFile("teste");
         
         
         
