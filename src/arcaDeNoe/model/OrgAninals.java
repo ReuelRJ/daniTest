@@ -40,6 +40,7 @@ public class OrgAninals {
         return cuples;
     }
     
+    //criando um arquivo JSON
     public void createJSONFile (List<Animal> animals, String nameArquiveJson ) {
     	Gson g = new Gson();
     	JSONArray listAnimal = new JSONArray();
@@ -49,23 +50,16 @@ public class OrgAninals {
 
             file.write(s);
             file.flush();
-            System.out.println("Arquivo toString criado com sucesso!");
+            System.out.println("Arquivo .json criado com sucesso!");
 
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-   
-    
-    //List<Animal> filterCuple
     
     public List<Animal> filterAnimalFemale (List<Animal> animalsArk){
         return animalsArk.stream().filter(female -> "female".equals(female.getSex())).toList();
     }
-
-
-
 
     //Verificação se o animal é anfíbio
     public boolean isAmphibian(Animal animal) {
