@@ -24,7 +24,14 @@ public class Ark {
         List<Animal> arkAnimals = ark.filterEspecie(animals);
         List<Animal> arkCupleAnimals = ark.createCuple(arkAnimals);
         List<Animal> animalFemale = ark.filterAnimalFemale(arkCupleAnimals);
+        List<Animal> animalMale = ark.filterAnimalMale(arkCupleAnimals);
         ark.createJSONFile(animalFemale, "teste");
+        
+        
+        animalFemale.forEach(StdOut::println);
+        System.out.println("QTS FEMEAS: "+animalFemale.size());
+        animalMale.forEach(StdOut::println);
+        System.out.println("QTS MACHOS: "+animalMale.size());
        
         
         

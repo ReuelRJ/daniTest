@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import org.json.simple.JSONArray;
@@ -59,6 +60,10 @@ public class OrgAninals {
     
     public List<Animal> filterAnimalFemale (List<Animal> animalsArk){
         return animalsArk.stream().filter(female -> "female".equals(female.getSex())).toList();
+    }
+    
+    public List<Animal> filterAnimalMale (List<Animal> animalsArk){
+        return animalsArk.stream().filter(male -> "male".equals(male.getSex())).toList();
     }
 
     //Verificação se o animal é anfíbio
